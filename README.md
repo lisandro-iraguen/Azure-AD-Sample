@@ -1,13 +1,4 @@
----
-page_type: sample
-description: This sample demonstrates how to use the Microsoft Graph .NET SDK to access data in Office 365 from Blazor WebAssembly apps.
-products:
-- ms-graph
-- office-exchange-online
-- blazor
-languages:
-- csharp
----
+
 
 # Microsoft Graph sample Blazor WebAssembly app
 
@@ -16,10 +7,6 @@ languages:
 This sample demonstrates how to use the Microsoft Graph .NET SDK to access data in Office 365 from Blazor WebAssembly apps.
 
 > **NOTE:** This sample was originally built from a tutorial published on the [Microsoft Graph tutorials](https://docs.microsoft.com/graph/tutorials) page. That tutorial has been removed.
-
-## Prerequisites
-
-- [.NET Core SDK](https://dotnet.microsoft.com/download)
 
 ## Register an app in Azure AD
 
@@ -49,20 +36,13 @@ This sample demonstrates how to use the Microsoft Graph .NET SDK to access data 
 
 1. Replace `YOUR_CLIENT_ID_HERE` with the **Application (client) ID** value from your app registration.
 
-## Running the sample
+result:
 
-Run the following command in the **GraphSample** directory.
+![image](https://github.com/user-attachments/assets/b171256b-6264-4780-8832-0923c6c4b8da)
+![image](https://github.com/user-attachments/assets/04a57c8e-4f87-459b-8dc1-620e77f8b6e2)
+![image](https://github.com/user-attachments/assets/2af542b5-330f-4840-8095-9607d5fe03a1)
+![image](https://github.com/user-attachments/assets/36d42590-fcac-4ccf-b831-3bdb1ff91011)
 
-```dotnetcli
-dotnet run
-```
 
-Open your browser to `https://localhost:7067`.
 
-## Code of conduct
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
-
-## Disclaimer
-
-**THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
